@@ -11,10 +11,10 @@ int	main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
-		write("%d is positive\n", n);
+		print("%d is positive\n", n);
 	if (n == 0)
-		write("%d is zero\n", n);
+		print("%d is zero\n", n);
 	if (n < 0)
-		write("%d is nagative\n", n);
+		print("%d is nagative\n", n);
 	return (0);
 }
